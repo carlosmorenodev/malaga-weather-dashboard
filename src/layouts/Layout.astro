@@ -1,0 +1,36 @@
+---
+// src/layouts/Layout.astro
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<title>{title}</title>
+	</head>
+	<body>
+		<slot />
+		<style is:global>
+			:root {
+				--accent: #4f46e5;
+			}
+			html {
+				font-family: system-ui, sans-serif;
+				background: #071d34;
+				color: white;
+			}
+			body {
+				margin: 0;
+				padding: 2rem;
+			}
+			@media (max-width: 768px) {
+				body {
+					padding: 1rem;
+				}
+			}
+		</style>
+	</body>
+</html>
