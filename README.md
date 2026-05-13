@@ -77,5 +77,3 @@ Si tienes alguna pregunta, sugerencia, o estás interesado en mi perfil profesio
 * **Portfolio:** [https://carlosmorenodev.vercel.app/](https://carlosmorenodev.vercel.app/)
 * **GitHub:** [https://github.com/carlosmorenodev](https://github.com/carlosmorenodev)
 * **LinkedIn:** [https://www.linkedin.com/in/carlosmorenomartindev/](https://www.linkedin.com/in/carlosmorenomartindev/)
-
-
