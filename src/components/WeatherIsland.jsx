@@ -34,10 +34,10 @@ export default function WeatherIsland() {
 
     return (
         <div style={{
-            background: '#0D2740',
+            background: '#E9F1FD',
             padding: '24px',
             borderRadius: '16px',
-            color: 'white',
+            color: 'black',
             display: 'flex',           // Activamos Flexbox
             flexDirection: 'column',    // Elementos uno debajo de otro
             gap: '16px',               // Espacio uniforme entre título y gráfico
@@ -45,7 +45,7 @@ export default function WeatherIsland() {
             height: '350px'             // Ocupa el alto de la celda de la rejilla 
         }}>
             < h2 style={{
-                color: '#fff', marginBottom: '20px'
+                color: 'black', marginBottom: '20px'
             }}> Temperatura Hoy (Málaga)</h2 >
             <ResponsiveContainer width="100%" height="100%">
                 <AreaChart id='weather-chart' data={data}>

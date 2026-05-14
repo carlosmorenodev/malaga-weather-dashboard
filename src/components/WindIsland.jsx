@@ -32,7 +32,7 @@ export default function WindIsland() {
 
     return (
         <div style={{
-            background: '#0D2740',
+            background: '#E9F1FD',
             padding: '24px',
             borderRadius: '16px',
             color: 'white',
@@ -43,7 +43,7 @@ export default function WindIsland() {
             height: '350px'             // Ocupa el alto de la celda de la rejilla 
         }}>
             <h2 style={{
-                color: '#fff', marginBottom: '20px'
+                color: 'black', marginBottom: '20px'
             }}>Velocidad del Viento en Málaga (km/h)</h2>
             <ResponsiveContainer width="100%" height="100%">
                 <AreaChart id='wind-chart' data={data}>

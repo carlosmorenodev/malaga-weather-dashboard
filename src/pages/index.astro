@@ -7,7 +7,7 @@ import WindIsland from "../components/WindIsland.jsx";
 <Layout title="Málaga Weather Dashboard">
   <main>
     <header>
-      <h1>Málaga estadisticas del tiempo 🌴</h1>
+      <h1>Málaga estadísticas del tiempo 🌴</h1>
       <p>Datos en tiempo real desde la API de Open-Meteo</p>
     </header>
 
@@ -20,6 +20,38 @@ import WindIsland from "../components/WindIsland.jsx";
       </div>
     </div>
   </main>
+  <footer>
+    <h2>📬 Contacto</h2>
+    <p>
+      Si tienes alguna pregunta, sugerencia, o estás interesado en mi perfil
+      profesional o colaboraciones, no dudes en contactarme a través de los
+      siguientes canales:
+    </p>
+
+    <p>
+      <b>Email:</b>
+      <a href="mailto:carlosmorenomartindev@gmail.com" target="_blank"
+        >carlosmorenomartindev@gmail.com</a
+      >
+    </p>
+    <p>
+      <b>Portfolio:</b>
+      <a href="https://carlosmorenodev.vercel.app/" target="_blank"
+        >https://carlosmorenodev.vercel.app/</a>
+    </p>
+    <p>
+      <b>GitHub:</b>
+      <a href="https://github.com/carlosmorenodev" target="_blank"
+        >https://github.com/carlosmorenodev</a
+      >
+    </p>
+    <p>
+      <b>LinkedIn:</b>
+      <a
+        href="https://www.linkedin.com/in/carlosmorenomartindev/"
+        target="_blank">https://www.linkedin.com/in/carlosmorenomartindev/</a>
+    </p>
+  </footer>
 </Layout>
 
 <style>
@@ -34,7 +66,6 @@ import WindIsland from "../components/WindIsland.jsx";
   }
   h1 {
     font-size: 3rem;
-    
   }
   .dashboard-grid {
     width: 100%;
@@ -44,10 +75,18 @@ import WindIsland from "../components/WindIsland.jsx";
     align-items: flex-start;
   }
   .card {
-    border: solid 1px green;
-    border-radius: 16px;    
+    border: solid 1px #2d7dd2;
+    border-radius: 16px;
   }
- 
+
+  footer h2,
+  p {
+    text-align: center;
+  }
+
+  footer a {
+    text-decoration: none;
+  }
 
   @media (max-width: 768px) {
     h1 {
