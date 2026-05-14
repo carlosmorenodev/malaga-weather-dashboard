@@ -1,3 +1,5 @@
+![Málaga Weather Dashboard](./public/readme-img.png)
+
 # 🌴 Málaga Weather Dashboard
 
 Un dashboard meteorológico moderno y profesional construido con **Astro** y **React**. Este proyecto utiliza la arquitectura de "Islas" para cargar gráficos interactivos de forma eficiente, obteniendo datos en tiempo real de la API de Open-Meteo para la ciudad de Málaga, España.
