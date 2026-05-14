@@ -31,7 +31,7 @@ Sigue estos pasos para ejecutar el proyecto localmente:
 1. **Clona el repositorio:**
    ```
    git clone https://github.com/carlosmorenodev/malaga-weather-dashboard.git
-   cd nombre-del-repo
+   cd malaga-weather-dashboard
 2. **Instala las dependencias:**
     ```
     pnpm install
